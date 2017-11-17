@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Courgette');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Montserrat:300i,400,700i|Nixie+One');
+body{
+    background: linear-gradient(30deg,#678ab7,#acedff);
+}
+header
+{
+    background: rgba(0,0,0,.7);
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    text-align: center;
+    font-family: 'Courgette',sans-serif;
+    border-bottom: 1px solid white;
+}
+
+header h1
+{
+    
+    float: left;
+    font-weight:400px;
+    font-size: 32px;
+    margin-top: -4px;
+    margin-left: 5px;
+    }
+nav ul li
+{
+    display:inline-block;
+    list-style-type: none;
+    color: #fff;
+    margin: 0 10px;
+    float: left;
+    margin-left: 20px;
+   }
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    }
+.homered
+{
+    background-color: red;
+    padding: 30px 10px 16px 10px;
+}
+.homeblack:hover
+{
+    background-color: blue;
+    padding: 30px 10px 16px 10px;
+}
+.homeblack{
+    transition: all .6s;
+}
+#doc 
+{
+    background: linear-gradient(30deg,orangered,white);
+    text-align: center;
+    
+}
+#doc1
+{
+    height: 300px;
+    width: 300px;
+    float: left;
+}

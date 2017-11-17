@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Courgette');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Montserrat:300i,400,700i|Nixie+One');
+body
+{
+    background: url('image2.jpg');
+    font-family: arial,sans-serif;
+   
+}
+
+header
+{
+    background: black;
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    text-align: center;
+    font-family: 'Courgette',sans-serif;
+    border-bottom: 1px solid white;
+}
+
+header h1
+{
+    
+    float: left;
+    font-weight:400px;
+    font-size: 32px;
+    margin-top: -4px;
+    margin-left: 5px;
+    }
+nav ul li
+{
+    display:inline-block;
+    list-style-type: none;
+    color: #fff;
+    margin: 0 10px;
+    float: left;
+    margin-left: 20px;
+   }
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    }
+.homered
+{
+    background-color: red;
+    padding: 30px 10px 16px 10px;
+}
+.homeblack:hover
+{
+    background-color: blue;
+    padding: 30px 10px 16px 10px;
+}
+.homeblack{
+    transition: all .6s;
+}
+
+#new
+{
+    width: 100%;
+    height: 700px;
+    
+    background-size: cover;
+}
+#new1
+{
+    height: 100px;
+    width: 750px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    opacity: 0.7;
+    filter: alpha (opacity=70);
+}
+
+#new1 ul li
+{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+#new1 a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+#new1 ul li:hover
+{
+    background: yellow;
+    transition: all 0.45s;
+    opacity: 0.9;
+    filter: alpha (opacity=90);
+}
+    
+}

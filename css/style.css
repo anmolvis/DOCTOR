@@ -1,0 +1,130 @@
+header{
+  position: absolute;
+  font-family:Lucida Handwriting;
+  height: 70px;
+  background-color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  border-bottom-color: white;
+}
+body{
+  margin:0;
+  background-color: rgba(0,0,0,.5);
+}
+header a{
+  color: rgb(19, 129, 193);;
+  text-decoration: none;
+}
+header h1 {
+  margin:10px 0 0 200px;
+  color: rgb(19, 129, 193);
+  font-weight: bolder;
+  font-variant: normal;
+}
+header ul{
+  margin: -50px 0 0 400px;
+  list-style: none;
+  position: absolute;
+  font-weight: bolder;
+  font-size: 22px;
+}
+header ul li{
+  display: inline;
+}
+header li a{
+    padding: 30px;
+    transition: all .4s;
+    color: rgb(19, 129, 193);
+    text-decoration: none;
+}
+header li a:hover{
+  background-color: rgb(19, 129, 193);
+  color:white;
+  padding: 30px;
+}
+#left,#right{
+  position: absolute;
+  font-size: 80px;
+  font-weight: bolder;
+  top:70%;
+  color: white;
+  cursor: pointer;
+}
+#left{
+left:45%;
+}
+#right{
+  right: 45%;
+}
+#login{
+position: absolute;
+top: 30%;
+right: 15%;
+padding: 30px;
+background-color: rgba(255,255,255,.7);
+color: rgb(19, 129, 193);
+font-size: 18px;
+}
+#login input[type=text],[type=password]{
+  border-color: rgb(19, 129, 193);
+  padding: 3px 0 3px 3px;
+  font-family: Lucida Handwriting;
+}
+#login input[type=submit]{
+  font-size: 18px;
+  background-color: rgb(19, 129, 193);
+  color: white;
+  font-family:Lucida Calligraphy;
+  font-weight:bold;
+  padding: 8px 25px 8px 25px;
+  border-color: rgb(19, 129, 193);
+}
+#login input[type=text]{
+  font-variant: small-caps;
+}
+.same{
+  background-color: rgba(255,255,255,.2);
+  height: 650px;
+  width: 100p%;
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+
+  background-size: cover;
+}
+#div1{
+    text-align: center;
+  background-image: url(image/back1.JPG);
+  background-attachment: fixed;
+}
+#div2{
+  background-image: image('back3.jpg');url('back3.JPG');
+  background-attachment: fixed;
+  margin-left:0%;
+  display:;
+  text-align: center;
+}
+.app
+{
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0px 15px 15px 15px;
+  color: white;
+  background-color: rgb(19, 129, 193);
+  box-shadow: -2px -2px 3px grey;
+  font-family: sans-serif;
+}
+.app input[type=submit]{
+  background: linear-gradient(45deg,rgb(19, 129, 193),white);
+  padding:5px 20px 5px 20px;
+  font-size: 16px;
+  margin-left: 25%;
+}
+.app input{
+  border-color: rgb(19, 129, 193);
+}
