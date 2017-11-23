@@ -33,7 +33,18 @@
       <div class="same" id="div2" >
           <div class="same">
                 <div id="one">
-                  <img src="image/doctor1.jpg" alt="" height="350px" width="300px">
+                  <img src="image/doctor1.jpg" alt="" height="300px" width="300px">
+                  <p id="para1">Name:xxxxxxxx <br>Speciality:yyyyyyyyyy</p>
+                  <div id="onel">
+                    jfkdjls
+                  </div>
+                </div>
+                <div id="two">
+                  <img src="image/doctor2.jpg" alt="" height="300px" width="300px">
+                  <p id="para1">Name:xxxxxxxx <br>Speciality:yyyyyyyyyy</p>
+                </div>
+                <div id="three">
+                  <img src="image/doctor3.jpg" alt="" height="300px" width="300px">
                   <p id="para1">Name:xxxxxxxx <br>Speciality:yyyyyyyyyy</p>
                 </div>
               </div>
